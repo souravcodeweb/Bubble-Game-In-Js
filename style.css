@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .pelanbox{
@@ -97,4 +98,19 @@
 .bubble:hover{
     background-color: rgb(218, 112, 112);
     color: #fff;
+}
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 15px;
+    margin-top: 22px;
+    color: #fff;
+    
 }

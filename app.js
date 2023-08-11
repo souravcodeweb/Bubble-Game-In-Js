@@ -14,7 +14,7 @@ function runtimer() {
             document.getElementById("timervalue").textContent = timer;
         } else {
             clearInterval(timerend)
-            document.querySelector(".botom").innerHTML = `<h1>Game Over</h1>`;
+            document.querySelector(".botom").innerHTML = `<h1>Game Over</h1>`
         }
     
     }, 1000)
